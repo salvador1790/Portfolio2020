@@ -151,6 +151,7 @@ margin-top: 30px;
     overflow: hidden;
     display: flex;
     justify-content: center;
+    margin-right: 20px;
 }
 
 .container img{
@@ -250,7 +251,8 @@ margin-top: 30px;
  margin: auto;
  width: 600px;
  text-align: center;
- color: slategray;
+ color: teal;
+ font-weight: bold;
 }
 
 label{
@@ -311,3 +313,82 @@ label{
     transition: 0.3s;
 }
 
+@media only screen and (max-width: 1250px){
+    .container{
+        height: 180px;
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .container{
+        height: 220px;
+        width: 350px;
+        margin: auto;
+    }
+
+    #exampleJumbotron{
+        flex-direction: column;
+        height: 740px;
+        width: 50%;
+        margin: 0;
+    }
+
+    #exampleJumbotron2{
+        flex-direction: column;
+        height: 740px;
+        width: 50%;
+        margin: 0;
+    }
+
+    #examplesMobile{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #examples{
+        height: 900px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    #skillsList{
+        flex-direction: column;
+        height: 1000px;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    #examplesMobile{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #exampleJumbotron{
+        margin: auto;
+        width: 350px;
+    }
+
+    #exampleJumbotron2{
+        margin: auto;
+        width: 350px;
+    }
+
+    #examples{
+        height: 1700px;
+    }
+
+    #examplesMobile{
+        width: 500px;
+        margin: auto;
+    }
+
+    #aboutMeCont{
+        width: 400px;
+    }
+
+    #aboutMeCont h1{
+        font-size: 20px;
+    }
+
+}
