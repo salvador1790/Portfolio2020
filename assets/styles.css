@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 .preload-transitions{
     $null-transition: none !important;
 
@@ -390,5 +394,44 @@ label{
     #aboutMeCont h1{
         font-size: 20px;
     }
+
+}
+
+@media only screen and (max-width: 610px){
+    #contact_div{
+        width: 500px;
+    }
+
+    #h1sec{
+        width: 450px;
+    }
+
+    #form1{
+        flex-direction: column;
+        width: 450px;
+        align-items: center;
+    }
+
+    #form2{
+        width: 450px;
+    }
+
+    #messageInput{
+        width: 450px;
+    }
+
+    #nameInput, #emailInput{
+        width: 450px;
+    }
+
+    label{
+        margin-top: 10px;
+        width: 450px;
+    }
+
+    #formSec{
+        width: 450px;
+    }
+
 
 }
