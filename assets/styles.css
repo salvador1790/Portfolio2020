@@ -317,9 +317,6 @@ label{
     transition: 0.3s;
 }
 
-#soon{
-    background-color: black;
-}
 
 @media only screen and (max-width: 1250px){
     .container{
